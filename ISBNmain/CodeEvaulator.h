@@ -10,7 +10,7 @@ struct ISBNTester {
     int getRandomNumberInVect(const vector<int>& primeVec, int N);
     vector<int> generatePrimeNumbers(int N);
 
-    // GENERATE THE 12 digits
+    
     vector<int> generate12DigitsExactSum(int target, mt19937& gen);
 
     // Create Codes 13 digit codes - kyle hadit, bianca
@@ -59,7 +59,7 @@ class ISBNEvaluator : public CodeEvaluator {
 public:
     ISBNEvaluator(const string& filename) : CodeEvaluator(filename) {}
 
-    // Declarations only — implementations are in ISBNEvaluator.cpp
+    // Declarations 
     void evaluate() override;
     void subjectEvaluate() override;
     void printValidCodes() override;
