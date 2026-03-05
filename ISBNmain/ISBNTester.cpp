@@ -71,7 +71,7 @@ vector<int> ISBNTester::generatePrimeNumbers(int N) {
     return generatedPrimes;
 }
 
-// Group 3 (Me & Andrew) — FIXED name to match header
+// Group 3 (Me & Andrew) 
 vector<int> ISBNTester::generate12DigitsExactSum(int target, mt19937& gen) {
     vector<int> output(12, 0);
 
